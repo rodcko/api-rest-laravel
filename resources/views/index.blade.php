@@ -12,6 +12,7 @@
             <h2>{{ $post->title }}</h2>
         </div>
         @endforeach
+        
         {{ $posts->links() }}
     </body>
 </html>
